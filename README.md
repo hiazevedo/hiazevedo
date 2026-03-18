@@ -15,22 +15,6 @@
 
 ---
 
-```python
-from databricks import Spark, DLT
-from delta import MedallionArchitecture
-import mlflow
-
-name  = "Higor Azevedo"
-roles = ["Data Engineer", "ML Engineer"]
-
-Workflows.schedule(
-  cluster = PhotonEngine(autoscaling=True),
-  retries = 3,  notify = "on_failure"
-)  # -> prod OK
-```
-
----
-
 ## Stack Técnica
 
 <div align="center">
@@ -57,11 +41,3 @@ Workflows.schedule(
 | 3 | [earthquake-ml-pipeline](https://github.com/hiazevedo/earthquake-ml-pipeline) | ML end-to-end com 28.700 eventos sísmicos para classificação de risco e predição de magnitude | `Spark ML` `MLflow` `Feature Store` `Unity Catalog` |
 | 4 | [weather-dlt-pipeline](https://github.com/hiazevedo/weather-dlt-pipeline) | Pipeline meteorológico com DLT processando 87 anos de dados históricos | `Delta Live Tables` `Workflows` `Open-Meteo` |
 | 5 | [weather-ml-rain-forecast](https://github.com/hiazevedo/weather-ml-rain-forecast) | Previsão de chuva com 755.491 registros horários (1940–2026) comparando XGBoost, RandomForest e Prophet | `XGBoost` `Prophet` `MLflow` `Time Series` |
-
----
-
-<div align="center">
-
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=hiazevedo&show_icons=true&hide_border=true&bg_color=0a192f&title_color=04AA6D&icon_color=04AA6D&text_color=8892b0&rank_icon=github)](https://github.com/hiazevedo)
-
-</div>
