@@ -41,3 +41,4 @@
 | 3 | [earthquake-ml-pipeline](https://github.com/hiazevedo/earthquake-ml-pipeline) | ML end-to-end com 28.700 eventos sísmicos para classificação de risco e predição de magnitude | `Spark ML` `MLflow` `Feature Store` `Unity Catalog` |
 | 4 | [weather-dlt-pipeline](https://github.com/hiazevedo/weather-dlt-pipeline) | Pipeline meteorológico com DLT processando 87 anos de dados históricos | `Delta Live Tables` `Workflows` `Open-Meteo` |
 | 5 | [weather-ml-rain-forecast](https://github.com/hiazevedo/weather-ml-rain-forecast) | Previsão de chuva com 755.491 registros horários (1940–2026) comparando XGBoost, RandomForest e Prophet | `XGBoost` `Prophet` `MLflow` `Time Series` |
+| 6 | [brazil-education-pipeline](https://github.com/hiazevedo/brazil-education-pipeline) | Pipeline ENEM + Censo Escolar + IDEB com 8 tabelas Gold, RandomForest, K-Means e ingestão automática | `PySpark` `Scikit-learn` `MLflow` `GitHub Actions` |
